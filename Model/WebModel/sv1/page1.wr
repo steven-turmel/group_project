@@ -1,14 +1,14 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="195" gr:y="70" id="sv1#page1" name="Landing Page">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="175" gr:y="105" id="sv1#page1" name="Landing Page">
   <ContentUnits>
-    <NoOpContentUnit gr:x="0" gr:y="0" id="sv1#page1#gctu1" name="Item Upload" linkOrder="sv1#page1#gctu1#ln1" customDescriptor="false">
-      <Link id="sv1#page1#gctu1#ln1" name="Upload An Assignment" to="sv1#page2" automaticCoupling="true" type="normal" validate="true"/>
+    <NoOpContentUnit gr:x="0" gr:y="0" id="sv1#page1#gctu3" name="Navigation Bar" linkOrder="sv1#page1#gctu3#ln3">
+      <Link id="sv1#page1#gctu3#ln3" name="Flow3" to="sv1#page3" automaticCoupling="true" type="normal" validate="true"/>
     </NoOpContentUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
-        <layout:Unit unitId="sv1#page1#gctu1">
-          <layout:Link link="sv1#page1#gctu1#ln1"/>
+        <layout:Unit unitId="sv1#page1#gctu3">
+          <layout:Link link="sv1#page1#gctu3#ln3"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

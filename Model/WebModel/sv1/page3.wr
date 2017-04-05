@@ -1,0 +1,47 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="400" gr:y="340" id="sv1#page3" name="Assignment Page">
+  <ContentUnits>
+    <NoOpContentUnit id="sv1#page3#gctu2" name="Navigation Bar" linkOrder="sv1#page3#gctu2#ln2 sv1#page3#gctu2#ln6 sv1#page3#gctu2#ln7 sv1#page3#gctu2#ln8" customDescriptor="false" gr:x="0" gr:y="0">
+      <Link id="sv1#page3#gctu2#ln2" name="Upload" to="sv1#page2" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#page3#gctu2#ln6" name="Home" to="sv1#page1" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv1#page3#gctu2#ln7" name="Syllabus" to="sv1#page4" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv1#page3#gctu2#ln8" name="Grades" to="sv1#page5" automaticCoupling="true" type="normal" validate="true"/>
+    </NoOpContentUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page3#gctu2">
+          <layout:Link link="sv1#page3#gctu2#ln2"/>
+          <layout:Link link="sv1#page3#gctu2#ln6"/>
+          <layout:Link link="sv1#page3#gctu2#ln7"/>
+          <layout:Link link="sv1#page3#gctu2#ln8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

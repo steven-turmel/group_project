@@ -1,0 +1,29 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="45" gr:y="315" id="sv1#page4" name="Syllabus">
+  <ContentUnits>
+    <NoOpContentUnit id="sv1#page4#gctu5" name="Navigation Bar" linkOrder="sv1#page4#gctu5#ln10 sv1#page4#gctu5#ln12" customDescriptor="false" gr:x="39" gr:y="51">
+      <Link id="sv1#page4#gctu5#ln10" name="Home" to="sv1#page1" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#page4#gctu5#ln12" name="Grades" to="sv1#page5" type="normal" automaticCoupling="true" validate="true"/>
+    </NoOpContentUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page4#gctu5">
+          <layout:Link link="sv1#page4#gctu5#ln10"/>
+          <layout:Link link="sv1#page4#gctu5#ln12"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
