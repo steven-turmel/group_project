@@ -1,0 +1,11 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Charter_WebApp" homePage="sv1#page1">
+  <OperationUnits>
+    <CreateUnit gr:x="860" gr:y="110" id="sv1#cru1" name="Create File" entity="ent1">
+      <KOLink id="sv1#cru1#kln1" name="KOFlow1" to="sv1#page2" automaticCoupling="true" gr:bendpoints="-119,126,181,131"/>
+      <OKLink id="sv1#cru1#oln1" name="OKFlow1" to="sv1#page2#pwu1" gr:bendpoints="-160,-105,195,-110">
+        <LinkParameter id="sv1#cru1#oln1#par2" name="oid_current oid" source="ent1#att1Array" target="sv1#page2#pwu1.current.ent1#att1"/>
+        <LinkParameter id="sv1#cru1#oln1#par3" name="file_index_PASSING" source="ent1#att2Array" passing="true"/>
+      </OKLink>
+    </CreateUnit>
+  </OperationUnits>
+</SiteView>
