@@ -1,4 +1,4 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Charter_WebApp" homePage="sv1#page1">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Charter_WebApp" homePage="sv1#page1" landmarks="sv1#page1 sv1#page3 sv1#page4 sv1#page5 sv1#page2">
   <OperationUnits>
     <CreateUnit gr:x="860" gr:y="110" id="sv1#cru1" name="Create File" entity="ent1">
       <KOLink id="sv1#cru1#kln1" name="KOFlow1" to="sv1#page2" automaticCoupling="true" gr:bendpoints="-119,126,181,131"/>
